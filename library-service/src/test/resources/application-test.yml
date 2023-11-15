@@ -1,0 +1,9 @@
+ spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    datasource:
+      url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;NON_KEYWORDS=KEY,VALUE
+      driverClassName: org.h2.Driver
+
